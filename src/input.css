@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.page-title {
+  @apply text-gray-700 text-center py-5 border-b border-gray-200;
+  @apply sm:mx-auto sm:py-10;
+
+  @screen sm {
+    width: auto;
+  }
+}
